@@ -11,8 +11,8 @@ public :
     newuseraccs(std::string& username, std::string& password);
     ~newuseraccs();
 
- std::vector<std::string> v;
- std::vector<std::string> N;
+ inline static std::vector<std::string> v;
+ inline static std::vector<std::string> N;
  
 void delete_account() {
 

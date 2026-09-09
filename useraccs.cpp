@@ -17,6 +17,12 @@ newuseraccs::newuseraccs(std::string& username, std::string& password)
        if(confirm2 == "yes"){
         N.push_back(password);
         std::cout << "new account is created" << std::endl;
+        for(std::string_view x : v){
+            std::cout << "username : " << x << std::endl;
+        }
+        for(std::string_view y : N){
+            std::cout << "password : " << y << std::endl;
+        }
        }
   }else{
       return;
